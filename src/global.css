@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  background-color: #1396cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#todo{
+    background-color: #fff;
+    min-width: 500px;
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+

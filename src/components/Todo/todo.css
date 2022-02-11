@@ -1,0 +1,52 @@
+.todoForm{
+    background-color: blue
+    ;
+}
+
+.insert {
+    background: #e2edf3;
+    padding: 10px;
+    display: flex;
+    margin: 10px auto;
+  }
+  .insert input {
+    float: 1;
+    flex-grow: 1;
+    padding: 8px 5px;
+    font-size: 16px;
+    border: none;
+    color: #01afd7;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+  }
+  .insert button {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px;
+    background: #01afd7;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .insert button:active {
+    background: #016f88;
+  }
+  .insert button:disabled {
+    background: #666;
+    color: #ddd;
+  }
+  
+
+
+  .item {
+    padding: 10px;
+    color: #016f88;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+  .item .text {
+    flex: 1;
+  }

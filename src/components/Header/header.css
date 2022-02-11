@@ -1,0 +1,41 @@
+.header {
+  font-weight: 600;
+  color: #1396cb;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.header .title {
+  flex: 1;
+}
+.header .title {
+}
+.header .add {
+  border-radius: 2px;
+  line-height: 2.5px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+/*
+.header .add svg {
+  color: #005073;
+  font-size: 30px;
+}
+.header .add svg:active {
+ color: #35393a;
+}
+.header .closeAdd {
+  border-radius: 2px;
+  line-height: 2.5px;
+  align-self: flex-end;
+  background-color: #e57373;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.header .closeAdd:active {
+  background-color: #d81b60;
+} */
